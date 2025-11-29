@@ -1,7 +1,7 @@
 # Palabra (PLB) DDL Language Specification
 
 **Author:** [Pablo427](https://github.com/palabra)  
-**License:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+**License:** Apache Version 2.0
 
 ---
 
