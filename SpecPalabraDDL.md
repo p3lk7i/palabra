@@ -34,7 +34,7 @@ Each line has the format: [level:key]value
 ## 3. Examples
 
 ### 3.1 Describe car brands 
-
+```
 [1:]Cars
 [2:Brand]Tesla
 [3:Model]Model S
@@ -55,9 +55,9 @@ Each line has the format: [level:key]value
 [4:Engine]Hybrid
 [4:Battery]1.3 kWh
 [4:Features]Eco Mode
-
+```
 ### 3.3 Describe person 
-
+```
 [1:class]Person
 [2:ident]john.doe@example.com
 [2:personal]John Doe
@@ -75,9 +75,9 @@ Each line has the format: [level:key]value
 [3:number]+1-555-123-4567
 [2:hobbies]Fishing
 [2:hobbies]Basketball
-
+```
 ### 3.4 Post request
-
+```
 [1:class]HTTPRequest
 [2:method]POST
 [2:url]https://api.example.com/users
@@ -91,5 +91,5 @@ Each line has the format: [level:key]value
 [3:location]Sandomierz, Poland
 [2:timeout]30
 [2:retry]3
-
+```
 
