@@ -91,4 +91,28 @@ Each line has the format: [level:key]value
 [2:timeout]30
 [2:retry]3
 ```
+# Why Palabra DDL is for you ?
 
+## 1. Human-Readable
+- Instead of complex braces, commas, or indentation rules, you just use `[level:key]value`.  
+- Even someone new to your language can quickly understand the hierarchy.
+
+## 2. Flexible
+- You can describe anything: people, cars, AI tech trees, HTTP requests, etc.  
+- Keys and values are free-form, so users can adapt it to any domain.
+
+## 3. Hierarchical and Structured
+- Each level number clearly indicates parent-child relationships.  
+- Lists are naturally represented by repeated keys at the same level.  
+- It’s easy to parse and visualize.
+
+## 4. Lightweight
+- Minimal punctuation and rules.  
+- Very compact compared to JSON or XML.  
+- Easy to write by hand or generate programmatically.
+
+## 5. GitHub-Friendly
+- With proper code blocks and indentation, your examples render beautifully on GitHub.  
+- Makes it perfect for specifications, demos, or structured examples.
+
+EOF
