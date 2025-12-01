@@ -1,4 +1,4 @@
-# Palabra (PLB) DDL Language Specification
+# Palabra427 (PLB427) DDL Language Specification
 
 **Author:** [Pablo427](https://github.com/palabra)  
 **License:** Apache Version 2.0
