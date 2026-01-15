@@ -180,6 +180,35 @@ If you add your search after document main text you create a FILTER :
 - With proper code blocks and indentation, your examples render beautifully on GitHub.  
 - Makes it perfect for specifications, demos, or structured examples.
 
+## 6. Works with AI 
+
+```
+# RAW DATA
+[1:Person]
+  [2:Name]John Doe
+  [2:Age]35
+  [2:Department]Engineering
+[1:Person]
+  [2:Name]Elaine Emerson
+  [2:Age]29
+  [2:Department]Design
+[1:Person]
+  [2:Name]Carlos Ruiz
+  [2:Age]41
+  [2:Department]Engineering
+
+# TRANSFORM (optional)
+[TRANSFORM:AverageAge]
+  [INPUT][2:Age]
+  [OUTPUT][1:AvgAgeByDept]
+  [FUNCTION]average_group_by([2:Department])
+
+# FILTER / AI PROMPT
+[FILTER][AI]
+  Task: "Generate a report listing all people in the Engineering department, including their names and ages, and show the department's average age."
+  Output: JSON table with keys: Name, Age, Department, AvgAgeByDept
+```
+
 and because simplicitas praevalet ...
 
 EOF
