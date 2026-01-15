@@ -22,7 +22,7 @@ Key features:
 
 ## 2. Syntax
 
-Each line has the format: [level:key]value you can also use [level:key1|key2|...|keyN]value for many keys
+Each line has the format: [level:key]value you can also use [level:key1|key2|...|keyN]value for many keys.
 
 - `level` → Numeric depth (≥1)  
 - `key` → Optional identifier (can be empty)  
@@ -31,6 +31,19 @@ Each line has the format: [level:key]value you can also use [level:key1|key2|...
 - Repeated keys are allowed  
 - Empty values are allowed  
 - Optional comments start with `//`
+
+The format definition can be changed. If you put first line as : (level=key1,key2,...,keyN])value format syntax changes :
+
+e.g file exerpt : 
+
+FORMAT (level=key1,key2,...,keyN])value 
+(1:)Cars
+  (2:Brand,Manufacutrer)Tesla
+    (3:Model)Model S
+
+[1:]Cars
+    [2:Brand]Tesla
+        [3:Model]Model S
 
 ## 3. Examples
 
