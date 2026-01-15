@@ -163,6 +163,7 @@ If you add your search after document main text you create a FILTER :
 - Keys and values are free-form, so users can adapt it to any domain.
 - The mini grammar can be remapped in line filter.
 - You can use multiple keys to access your values.
+- You can use FILTER concept to produce reports from your file content as filter wire query with file data.
 
 ## 3. Hierarchical and Structured
 - Each level number clearly indicates parent-child relationships.  
