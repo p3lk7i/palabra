@@ -129,6 +129,8 @@ the data and describe the search.
 ## 2. Flexible
 - You can describe anything: people, cars, AI tech trees, HTTP requests, etc.  
 - Keys and values are free-form, so users can adapt it to any domain.
+- The mini grammar can be remapped in line filter.
+- You can use multiple keys to access your values.
 
 ## 3. Hierarchical and Structured
 - Each level number clearly indicates parent-child relationships.  
