@@ -22,7 +22,7 @@ Key features:
 
 ## 2. Syntax
 
-Each line has the format:** [level:key]value** you can also use **[level:key1|key2|...|keyN]value** for many keys.
+Each line has the format:**[level:key]value** you can also use **[level:key1|key2|...|keyN]value** for many keys.
 
 - `level` → Numeric depth (≥1)  
 - `key` → Optional identifier (can be empty)  
