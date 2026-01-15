@@ -164,6 +164,7 @@ If you add your search after document main text you create a FILTER :
 - The mini grammar can be remapped in line filter.
 - You can use multiple keys to access your values.
 - You can use FILTER concept to produce reports from your file content as filter wire query with file data.
+  To do that you can use Palabra parser or just use AI and instruct it to use FILER as prompt.
 
 ## 3. Hierarchical and Structured
 - Each level number clearly indicates parent-child relationships.  
