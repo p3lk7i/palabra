@@ -43,6 +43,17 @@ FORMAT (level=key1,key2,...,keyN)value
 ```
 for standard format you don't need FORMAT key word in your files.
 
+Key on the same level can address many values. That enable you to create many to many relations :
+
+```
+[1:A,B,C] 123
+[1:A] 333
+  [2:B] 100
+```
+- A point to 123 and 333 
+- B point to 123 on level 1 
+- B point to 100 on level 2 
+
 ## 3. Examples
 
 ### 3.1 Describe car brands 
