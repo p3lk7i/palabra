@@ -36,7 +36,7 @@ The format definition can be changed (grammar remapping). If you put first line 
 
 e.g file exerpt : 
 ```
-FORMAT (level=key1,key2,...,keyN])value 
+FORMAT (level=key1,key2,...,keyN)value 
 (1=)Cars
   (2=Brand,Manufacutrer)Tesla
     (3=Model)Model S
